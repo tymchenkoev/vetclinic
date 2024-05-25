@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100px;
+}
+
+
+ul, li {
+    list-style: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+.container {
+margin: o auto;
+max-width: 1500px;
+}
+
+.header {
+    display: flex;
+justify-content: space-between;
+}
+.logo__img{
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+   
+}
+
+.nav__item {
+   margin-right: 80px;
+    font-family: 'Futura New'; 
+    font-weight: 700; 
+    font-size: 20px; 
+    color: #C3B9B5; 
+    text-transform: uppercase; 
+}
+.content {
+    width: 100%;
+    display: flex;
+}
+.title__block {
+    width: 49%;
+   
+}
+.title {
+    font-family: 'SchoolBook';
+font-weight: 400;
+font-size: 80px;
+line-height: 138%;
+color: #080606;
+}
+
+.btn {
+    width: 147px;
+    height: 20px;
+background-color: #FFC59E;
+box-shadow: 0px 4px 20px #FFC59E;
+border-radius: 33.5px;
+ border: none;
+font-size: 20px;
+ color: #ffffff;
+ text-transform: uppercase;
+ margin: 24px 77px;
+ font-family: 'Futura New';
+ font-style: normal;
+ font-weight: 700;
+ line-height: 20px;
+}
+.content-images {
+    width: 50%;
+    height: 768px;
+}
